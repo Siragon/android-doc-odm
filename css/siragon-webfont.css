@@ -1,0 +1,12 @@
+
+@font-face {
+    font-family: 'siragonregular';
+    src: url('../fonts/siragon-webfont.eot');
+    src: url('../fonts/siragon-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/siragon-webfont.woff') format('woff'),
+         url('../fonts/siragon-webfont.ttf') format('truetype'),
+         url('../fonts/siragon-webfont.svg#siragonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
