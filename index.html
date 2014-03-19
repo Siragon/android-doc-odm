@@ -185,7 +185,7 @@ $(document).on("click", "[href=#]", function (event) {
   var d = new Date();
  var markdownPage = $(this).data('markdown');
     console.log(markdownPage);
-  		document.title = 'Síragon | 'markdownPage;
+  		document.title = 'Síragon | ' + markdownPage;
         $.get( "markdown/"+markdownPage+".md?time=" + d.getTime(), 
               function( data ) {
                 $(".content").html( markdown.toHTML(data) );
