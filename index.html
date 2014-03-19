@@ -13,6 +13,8 @@
         <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
         <!-- bootstrap 3.0.2 -->
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <!-- highlight.js 8.0 -->
+        <link href="css/highlight.js/github.css" rel="stylesheet" type="text/css" />
         <!-- font Awesome -->
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <!-- Ionicons -->
@@ -179,6 +181,8 @@
         <script src="js/bootstrap.min.js" type="text/javascript"></script>
         <!-- Markdown -->
         <script src="js/marked-0.3.2.js" type="text/javascript"></script>
+        <!-- highlight.js -->
+        <script src="js/highlight-8.0.pack.js" type="text/javascript"></script>
         <!-- AdminLTE App -->
         <script src="js/AdminLTE/app.js" type="text/javascript"></script>
         <script>
@@ -222,7 +226,12 @@ if ("onhashchange" in window) {
 }
 
 function locationHashChanged() {
-var data;
+    var data;
+    marked.setOptions({
+      highlight: function (code) {
+        return hljs.highlightAuto(code).value;
+      }
+    });
     $.ajax({
       url : 'markdown/'+window.location.hash.replace(/#/g , "")+'.md',
       dataType : 'text',
@@ -235,7 +244,6 @@ var data;
 }
 
 window.onhashchange = locationHashChanged;
-       
         </script>
     </body>
 </html>
