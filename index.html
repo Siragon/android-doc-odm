@@ -209,7 +209,7 @@ var str = markdownPage.replace(/_/g , " ");
           });
   var data;
   $.ajax({
-    url : 'markdown/'+window.location.hash+'.md',
+    url : 'markdown/'+window.location.hash.replace(/#/g , "");+'.md',
     dataType : 'text',
     data : data,
     cache : false,
