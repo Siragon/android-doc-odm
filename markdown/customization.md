@@ -7,7 +7,12 @@ The ```framework-res.apk``` contain the ```default_wallpaper.jpg```
 ```
 Check the size to select:
 
-**1920x1080**<br\>
+| Elemento | Cantidad | Precio |
+| :------- | :------: | -----: |
+| Item 1   | 15       | 150€   |
+| Item 2   | 3250     | 23,65€ |
+
+**1920x1080**
 wallpaper1
 wallpaper2
 wallpaper3
