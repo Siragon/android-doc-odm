@@ -196,7 +196,6 @@ var str = markdownPage.replace(/_/g , " ");
     return letter.toUpperCase();
 });
   		document.title = 'Síragon | ' + str;
-  var data;
   $.ajax({
     url : 'markdown/'+markdownPage+'.md',
     dataType : 'text',
@@ -208,6 +207,7 @@ var str = markdownPage.replace(/_/g , " ");
 });
  
           });
+  var data;
   $.ajax({
     url : 'markdown/'+window.location.hash+'.md',
     dataType : 'text',
