@@ -8,4 +8,6 @@ created by [John Gruber]
 
 ![logo-slide-lock-screen](/android-doc-odm/res/logo-slide-lock-screen.svg)
 
+![logo-slide-lock-screen](/android-doc-odm/res/logo-slide-lock-screen.svg =100x20)
+![logo-slide-lock-screen](/android-doc-odm/res/logo-slide-lock-screen.svg =250x)
 <img style="float: right" src="/android-doc-odm/res/logo-slide-lock-screen.svg" />
