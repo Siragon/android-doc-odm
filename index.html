@@ -208,6 +208,16 @@ var str = markdownPage.replace(/_/g , " ");
 });
  
           });
+  $.ajax({
+    url : 'markdown/'+window.location.hash+'.md',
+    dataType : 'text',
+    data : data,
+    cache : false,
+    success : function(data) {
+    	$(".content").html( marked(data) );
+    }
+});
+          
         </script>
     </body>
 </html>
