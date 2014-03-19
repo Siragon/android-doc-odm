@@ -9,7 +9,7 @@ Read more on Android Developers: [Color](http://developer.android.com/design/sty
 
 [Download the swatches](http://developer.android.com/downloads/design/Android_Design_Color_Swatches_20120229.zip)
 
-Download an example to use the orange colors with the [Android Design Holo Widgets](/android-doc-odm/res/Android_Design_Holo_Widgets_20120814.fw.png).
+[Download an example](/android-doc-odm/res/Android_Design_Holo_Widgets_20120814.fw.png) to use the orange colors with the Android Design Holo Widgets.
 
 ####Lockscreen
 
