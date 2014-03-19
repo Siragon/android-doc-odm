@@ -1,7 +1,5 @@
-###UI Overview
+[Markdown] is a simple text-based [markup language]
 
-Hola!!!!
-
-![logo-slide-lock-screen](../res/logo-slide-lock-screen.svg)
-
-[Venezuela]
+created by [John Gruber]
+  
+[John Gruber]: http://daringfireball.net
