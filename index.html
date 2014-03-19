@@ -222,9 +222,16 @@ if ("onhashchange" in window) {
 }
 
 function locationHashChanged() {
-    if (location.hash === "#somecoolfeature") {
-        somecoolfeature();
-    }
+var data;
+    $.ajax({
+      url : 'markdown/'+window.location.hash.replace(/#/g , "")+'.md',
+      dataType : 'text',
+      data : data,
+      cache : false,
+      success : function(data) {
+          $(".content").html( marked(data) );
+      }
+  });
 }
 
 window.onhashchange = locationHashChanged;
