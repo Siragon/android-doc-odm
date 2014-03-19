@@ -220,7 +220,7 @@ var str = markdownPage.replace(/_/g , " ");
 $(function(){
 
   $(window).hashchange( function(){
-    var data;
+    /*var data;
     $.ajax({
       url : 'markdown/'+window.location.hash.replace(/#/g , "")+'.md',
       dataType : 'text',
@@ -229,7 +229,8 @@ $(function(){
       success : function(data) {
           $(".content").html( marked(data) );
       }
-  });
+  });*/
+    console.log("change");
 });
   // Trigger the event (useful on page load).
   $(window).hashchange();
