@@ -181,7 +181,7 @@
 $(document).on("click", "[href=#]", function (event) {
     event.preventDefault();
   $( ".active" ).removeClass( "active" );
-  event.target.addClass('active');
+  event.target.setAttribute('class', 'active');
   var d = new Date();
  var markdownPage = $(this).data('markdown');
     console.log(markdownPage);
