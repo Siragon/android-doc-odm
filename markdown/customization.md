@@ -7,4 +7,4 @@ The ```framework-res.apk``` contain the ```default_wallpaper.jpg```
 ```
 
 960x854
-![](/markdown/wallpaper1.jpg)
+![](/android-doc-odm/res/wallpapers/960x854/wallpaper1.jpg)
