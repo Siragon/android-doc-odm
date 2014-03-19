@@ -180,9 +180,11 @@
             
 $(document).on("click", "[href=#]", function (event) {
     event.preventDefault();
+  var d = new Date();
  var markdownPage = $(this).data('markdown');
     console.log(markdownPage);
-        $.get( "markdown/"+markdownPage+".md", function( data ) {
+        $.get( "markdown/"+markdownPage+".md?time=" + d.getTime(), 
+              function( data ) {
                 $("#preview").html( markdown.toHTML(data) );
             }); 
     
