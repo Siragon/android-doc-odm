@@ -12,5 +12,7 @@ Read more on Android Developers: [Color](http://developer.android.com/design/sty
 [Download an example](/android-doc-odm/res/Android_Design_Holo_Widgets_20120814.fw.png) to use the orange colors with the Android Design Holo Widgets.
 
 ####Lockscreen
+Change the padlock image with the "Sí" chars.
+[Download the vector file](/android-doc-odm/res/logo-slide-lock-screen.eps).
 <img  src="/android-doc-odm/res/lockscreen.png" style="width: 100px;"/>
 <img  src="/android-doc-odm/res/logo-slide-lock-screen.svg" style="width: 100px;"/>
