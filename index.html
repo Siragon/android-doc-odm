@@ -198,13 +198,12 @@ var str = markdownPage.replace(/_/g , " ");
     
 });
           
-var md = require( "markdown" ).markdown,
-    text = "[Markdown] is a simple text-based [markup language]\n" +
+var text = "[Markdown] is a simple text-based [markup language]\n" +
            "created by [John Gruber]\n\n" +
            "[John Gruber]: http://daringfireball.net";
 
 // parse the markdown into a tree and grab the link references
-var tree = md.parse( text ),
+var tree = markdown.parse( text ),
     refs = tree[ 1 ].references;
 
 // iterate through the tree finding link references
@@ -228,7 +227,7 @@ var tree = md.parse( text ),
 } )( tree );
 
 // convert the tree into html
-var html = md.renderJsonML( md.toHTMLTree( tree ) );
+var html = markdown.renderJsonML( markdown.toHTMLTree( tree ) );
 $(".content").html( html );
         </script>
     </body>
