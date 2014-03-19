@@ -19,6 +19,8 @@ Change the padlock image with the "Sí" chars.
 
 [Download the vector file](/android-doc-odm/res/logo-slide-lock-screen.eps).
 
-```js
-    console.log("hello");
+Default wallpaper
+```
+ /system/framework/framework-res.apk
+/res/drawable-nodpi/default_wallpaper.jpg
 ```
