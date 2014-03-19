@@ -1,6 +1,6 @@
 ###UI Overview
 
-##Color
+####Color
 Use these colors for 
 \#FFBB33
 \#FF8800
