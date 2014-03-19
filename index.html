@@ -183,7 +183,7 @@
         <script src="js/AdminLTE/app.js" type="text/javascript"></script>
         <script>
             
-$(document).on("click", "[data-markdown=*]", function (event) {
+$(document).on("click", "[href^=#]", function (event) {
     event.preventDefault();
   $( ".active" ).removeClass( "active" );
   //$(event.target).parent().parent().parent().addClass('active');
