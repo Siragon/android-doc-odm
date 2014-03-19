@@ -7,10 +7,8 @@ The ```framework-res.apk``` contain the ```default_wallpaper.jpg```
 ```
 Check the size to select:
 
-| Elemento |
-| :------- | :------: | -----: |
-| Item 1   | 15       | 150€   |
-| Item 2   | 3250     | 23,65€ |
+| :------: | :------: | :------: |
+|![](/android-doc-odm/res/wallpapers/1920x1080/wallpaper1.thumbnail.jpg)| ![](/android-doc-odm/res/wallpapers/1920x1080/wallpaper2.thumbnail.jpg)| ![](/android-doc-odm/res/wallpapers/1920x1080/wallpaper3.thumbnail.jpg)|
 
 **1920x1080**
 wallpaper1
