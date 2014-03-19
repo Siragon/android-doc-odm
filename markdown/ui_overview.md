@@ -1,4 +1,5 @@
-###UI Overview
+UI Overview
+===========
 [Markdown] is a simple text-based [markup language]
 
 created by [John Gruber]
