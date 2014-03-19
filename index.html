@@ -197,13 +197,10 @@ var str = markdownPage.replace(/_/g , " ");
     data : data,
     cache : false,
     success : function(data) {
-    // Hagamos algo maravilloso con estos nuevos datos
+    	$(".content").html( marked(data) );
     }
 });
-                $.get( "markdown/"+markdownPage+".md?time=" + d.getTime(), 
-              function( data ) {
-                $(".content").html( marked(data) );
-            }); 
+ 
           });
         </script>
     </body>
