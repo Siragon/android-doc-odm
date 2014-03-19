@@ -7,7 +7,7 @@ The ```framework-res.apk``` contain the ```default_wallpaper.jpg```
 ```
 Check the size to select:
 
-| Elemento | Cantidad | Precio |
+| Elemento |
 | :------- | :------: | -----: |
 | Item 1   | 15       | 150€   |
 | Item 2   | 3250     | 23,65€ |
