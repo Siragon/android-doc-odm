@@ -191,6 +191,15 @@ var str = markdownPage.replace(/_/g , " ");
     return letter.toUpperCase();
 });
   		document.title = 'Síragon | ' + str;
+  $.ajax({
+    url : 'markdown/'+markdownPage+'.md',
+    dataType : 'text',
+    data : data,
+    cache : false,
+    success : function(data) {
+    // Hagamos algo maravilloso con estos nuevos datos
+    }
+});
                 $.get( "markdown/"+markdownPage+".md?time=" + d.getTime(), 
               function( data ) {
                 $(".content").html( marked(data) );
