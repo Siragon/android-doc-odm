@@ -216,26 +216,19 @@ var str = markdownPage.replace(/_/g , " ");
     	$(".content").html( marked(data) );
     }
 });
-          
-$(function(){
 
-  $(window).hashchange( function(){
-    /*var data;
-    $.ajax({
-      url : 'markdown/'+window.location.hash.replace(/#/g , "")+'.md',
-      dataType : 'text',
-      data : data,
-      cache : false,
-      success : function(data) {
-          $(".content").html( marked(data) );
-      }
-  });*/
-    console.log("change");
-});
-  // Trigger the event (useful on page load).
-  $(window).hashchange();
+if ("onhashchange" in window) {
+    locationHashChanged();
+}
 
-});
+function locationHashChanged() {
+    if (location.hash === "#somecoolfeature") {
+        somecoolfeature();
+    }
+}
+
+window.onhashchange = locationHashChanged;
+       
         </script>
     </body>
 </html>
