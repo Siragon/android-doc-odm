@@ -161,7 +161,6 @@
 
                 <!-- Main content -->
                 <section class="content">
-    <div id="preview"> </div>
 
                 </section><!-- /.content -->
             </aside><!-- /.right-side -->
@@ -187,7 +186,7 @@ $(document).on("click", "[href=#]", function (event) {
     console.log(markdownPage);
         $.get( "markdown/"+markdownPage+".md?time=" + d.getTime(), 
               function( data ) {
-                $("#preview").html( markdown.toHTML(data) );
+                $(".content").html( markdown.toHTML(data) );
             }); 
     
 });
