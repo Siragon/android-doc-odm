@@ -6,7 +6,7 @@ The ```framework-res.apk``` contain the ```default_wallpaper.jpg```
     /res/drawable-nodpi/default_wallpaper.jpg
 ```
 Check the size to select:
-
+|**1920x1080**|
 | :------: | :------: | :------: |
 |![](/android-doc-odm/res/wallpapers/1920x1080/wallpaper1.thumbnail.jpg)| ![](/android-doc-odm/res/wallpapers/1920x1080/wallpaper2.thumbnail.jpg)| ![](/android-doc-odm/res/wallpapers/1920x1080/wallpaper3.thumbnail.jpg)|
 
