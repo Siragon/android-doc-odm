@@ -4,7 +4,7 @@
 Use these colors for 
 \#FFBB33
 \#FF8800
-![](//android-doc-odm/res/colors.png)
+![](/android-doc-odm/res/colors.png)
 
 Read more on Android Developers: [Color](http://developer.android.com/design/style/color.html "Android Developers")
 
