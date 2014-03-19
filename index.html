@@ -185,7 +185,7 @@ $(document).on("click", "[href=#]", function (event) {
   var d = new Date();
  var markdownPage = $(this).data('markdown');
     console.log(markdownPage);
-  var str = str.replace(markdownPage,"_"); 
+  var str = markdownPage.replace(markdownPage,"_"); 
   str = str.toLowerCase().replace(/\b[a-z]/g, function(letter) {
     return letter.toUpperCase();
 });
