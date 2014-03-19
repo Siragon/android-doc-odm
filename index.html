@@ -189,7 +189,6 @@ $(document).on("click", "[href^=#]", function (event) {
   //$(event.target).parent().parent().parent().addClass('active');
   var d = new Date();
  var markdownPage = $(this).data('markdown');
-    console.log(markdownPage);
   
 var str = markdownPage.replace(/_/g , " ");
   str = str.toLowerCase().replace(/\b[a-z]/g, function(letter) {
@@ -217,7 +216,6 @@ var str = markdownPage.replace(/_/g , " ");
     	$(".content").html( marked(data) );
     }
 });
-          console.log(window.location.hash);
         </script>
     </body>
 </html>
