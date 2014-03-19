@@ -217,7 +217,24 @@ var str = markdownPage.replace(/_/g , " ");
     }
 });
           
+$(function(){
 
+  $(window).hashchange( function(){
+    var data;
+    $.ajax({
+      url : 'markdown/'+window.location.hash.replace(/#/g , "")+'.md',
+      dataType : 'text',
+      data : data,
+      cache : false,
+      success : function(data) {
+          $(".content").html( marked(data) );
+      }
+  });
+});
+  // Trigger the event (useful on page load).
+  $(window).hashchange();
+
+});
         </script>
     </body>
 </html>
