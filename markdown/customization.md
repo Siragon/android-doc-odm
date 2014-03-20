@@ -118,7 +118,7 @@ To set the APN configuration for a particular product target, add an apns-conf.x
 To configure APNs at the product level, add a line to the product configuration file like the example below (vendor/siragon/products/myphone-us.mk):
 
 ```text
-PRODUCT_COPY_FILES := vendor/acme/etc/apns-conf-us.xml:system/etc/apns-conf.xml
+PRODUCT_COPY_FILES := vendor/siragon/etc/apns-conf-us.xml:system/etc/apns-conf.xml
 ```
 ####APN configuration at run time
 At runtime, the Android reads APNs from the following file:
@@ -146,7 +146,7 @@ PRODUCT_PACKAGES := \
  ```
 Package names should correspond to the LOCAL_PACKAGE_NAME specified for each package's build target. For example, the Android.mk build target for <company_name>Mail, referenced above, could look like this:
 
- 
+```makefile
 # Build the <company_name>Mail application
 LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
@@ -161,15 +161,16 @@ LOCAL_STATIC_JAVA_LIBRARIES := <company_name>login-client
 LOCAL_PACKAGE_NAME := <company_name>Mail
  
 # Specify the certificate used to sign the application
-LOCAL_CERTIFICATE := vendor/<company_name>/certs/app
+LOCAL_CERTIFICATE := vendor/siragon/certs/app
  
 include $(BUILD_PACKAGE)
  
 # Build the login client static library
 include $(LOCAL_PATH)/client/Android.mk
+```
 Note that the home screen is just an Android application that can be replaced entirely or customized by changing source code and application resources (Java source, layouts, etc.).
 
-Customizing browser bookmarks
+####Customizing browser bookmarks
 Browser bookmarks are stored as string resources in the Browser application: //android/packages/apps/Browser/res/values/strings.xml. Bookmarks are defined as simple value string arrays called "bookmarks". Each bookmark entry is stored as a pair of array values; the first represents the bookmark name and the second the bookmark URL. For example:
 
 ```xml
@@ -207,7 +208,7 @@ Like and Android application resource, the platform will load alternate resource
 
 Android loads any configuration-specific resources as override values for the default values, so it is only necessary to include the bookmarks string-array values in this file.
 
-Email Provider Customization
+####Email Provider Customization
 The default email provider settings are stored as string resources in the Email application (//android/packages/apps/Email/res/xml/providers.xml) as illustrated below.
 ```xml
 <providers>
