@@ -245,6 +245,7 @@ The default email provider settings are stored as string resources in the Email 
 	Mail.cantv.net
     Port: 465 ssl/tls
 	Port: 25
+    username@cantv.net
     -->
     <provider id="aim" label="AIM" domain="aim.com">
         <incoming uri="imap://imap.aim.com" label="IMAP" username="$email"/>
