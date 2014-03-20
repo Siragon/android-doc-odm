@@ -8,15 +8,13 @@ The ```framework-res.apk``` contain the ```default_wallpaper.jpg```
 Check the size to select:
 **1920x1080**
 
-![](/android-doc-odm/res/wallpapers/1920x1080/wallpaper1.thumbnail.jpg) 
-![](/android-doc-odm/res/wallpapers/1920x1080/wallpaper2.thumbnail.jpg) 
-![](/android-doc-odm/res/wallpapers/1920x1080/wallpaper3.thumbnail.jpg)
-![](/android-doc-odm/res/wallpapers/1920x1080/wallpaper4.thumbnail.jpg)
-![](/android-doc-odm/res/wallpapers/1920x1080/wallpaper5.thumbnail.jpg)
-![](/android-doc-odm/res/wallpapers/1920x1080/wallpaper6.thumbnail.jpg)
+[![](/android-doc-odm/res/wallpapers/1920x1080/wallpaper1.thumbnail.jpg)](/android-doc-odm/res/wallpapers/1920x1080/wallpaper1.jpg)
+[![](/android-doc-odm/res/wallpapers/1920x1080/wallpaper2.thumbnail.jpg)](/android-doc-odm/res/wallpapers/1920x1080/wallpaper2.jpg)
+[![](/android-doc-odm/res/wallpapers/1920x1080/wallpaper3.thumbnail.jpg)](/android-doc-odm/res/wallpapers/1920x1080/wallpaper3.jpg)
+[![](/android-doc-odm/res/wallpapers/1920x1080/wallpaper4.thumbnail.jpg)](/android-doc-odm/res/wallpapers/1920x1080/wallpaper4.jpg)
+[![](/android-doc-odm/res/wallpapers/1920x1080/wallpaper5.thumbnail.jpg)](/android-doc-odm/res/wallpapers/1920x1080/wallpaper5.jpg)
+[![](/android-doc-odm/res/wallpapers/1920x1080/wallpaper6.thumbnail.jpg)](/android-doc-odm/res/wallpapers/1920x1080/wallpaper6.jpg)
 
-
-[![Foo](http://www.google.com.au/images/nav_logo7.png)](http://google.com.au/)
 **1920x1080**
 wallpaper1
 wallpaper2
