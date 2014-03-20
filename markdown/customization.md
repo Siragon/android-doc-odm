@@ -134,7 +134,7 @@ Note that the home screen is just an Android application that can be replaced en
 Customizing browser bookmarks
 Browser bookmarks are stored as string resources in the Browser application: //android/packages/apps/Browser/res/values/strings.xml. Bookmarks are defined as simple value string arrays called "bookmarks". Each bookmark entry is stored as a pair of array values; the first represents the bookmark name and the second the bookmark URL. For example:
 
- 
+```xml
 <!-- Bookmarks -->
 <string-array name="bookmarks">
     <item>Google</item>
@@ -164,13 +164,14 @@ Browser bookmarks are stored as string resources in the Browser application: //a
     <item>BBC</item>
     <item>http://www.bbc.co.uk/</item>
 </string-array>
+```
 Like and Android application resource, the platform will load alternate resources based on the platform configuration values. See Resources and Internationalization in the Android SDK for details. To configure bookmarks for a specific mobile network operator, place your customized bookmarks in a separate strings.xml file and place it under a Mobile Network Code (MNO) specific resource folder. For example, Browser/res/values-mccXXX-mncYYY/strings.xml where XXX and YYY represent the three-digit MCC and two to three digit MNC values.
 
 Android loads any configuration-specific resources as override values for the default values, so it is only necessary to include the bookmarks string-array values in this file.
 
 Email Provider Customization
 The default email provider settings are stored as string resources in the Email application (//android/packages/apps/Email/res/xml/providers.xml) as illustrated below.
-
+```xml
 <providers>
 
  
@@ -294,6 +295,7 @@ The default email provider settings are stored as string resources in the Email 
         <outgoing uri="smtp+tls://smtp.web.de" username="$user"/>
     </provider>
 </providers>
+```
 As with all Android application resources, the platform will load alternate resources based on the platform configuration values. See Resources and Internationalization in the Android SDK for details. To configure email providers for a specific mobile network operator, place the customized providers in a separate providers.xml file and place it under a Mobile Network Code (MNO) specific resource folder. For example, Email/res/xml-mccXXX-mncYYY/providers.xml where XXX and YYY represent the three-digit MCC and two to three digit MNC values.
 
 Platform Themes
