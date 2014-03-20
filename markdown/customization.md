@@ -9,6 +9,14 @@ Check the size to select.
 
 Click to download.
 
+**960x800**
+
+[![](/android-doc-odm/res/wallpapers/960x800/wallpaper1.thumbnail.jpg)](/android-doc-odm/res/wallpapers/960x800/wallpaper1.jpg)
+[![](/android-doc-odm/res/wallpapers/960x800/wallpaper2.thumbnail.jpg)](/android-doc-odm/res/wallpapers/960x800/wallpaper2.jpg)
+[![](/android-doc-odm/res/wallpapers/960x800/wallpaper3.thumbnail.jpg)](/android-doc-odm/res/wallpapers/960x800/wallpaper3.jpg)
+[![](/android-doc-odm/res/wallpapers/960x800/wallpaper4.thumbnail.jpg)](/android-doc-odm/res/wallpapers/960x800/wallpaper4.jpg)
+[![](/android-doc-odm/res/wallpapers/960x800/wallpaper5.thumbnail.jpg)](/android-doc-odm/res/wallpapers/960x800/wallpaper5.jpg)
+
 **1920x1080**
 
 [![](/android-doc-odm/res/wallpapers/1920x1080/wallpaper1.thumbnail.jpg)](/android-doc-odm/res/wallpapers/1920x1080/wallpaper1.jpg)
