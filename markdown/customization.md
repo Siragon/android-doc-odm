@@ -38,7 +38,10 @@ Click to download.
 [![](/android-doc-odm/res/wallpapers/1920x1408/wallpaper6.thumbnail.jpg)](/android-doc-odm/res/wallpapers/1920x1408/wallpaper6.jpg)
 
 ###Boot Screen Customization
-At startup, Android displays a splashscreen image while booting the device. Do the following if you wish to modify the default splash screen:
+At startup, Android displays a splashscreen image while booting the device. Do the following to modify the default splash screen:
+
+Use splashscreen like this:
+![](//android-doc-odm/res/boot_screen.png)
 
 Create a 320x480 image, splashscreen.jpg in this example.
 Using ImageMagick, convert your .jpg file to .r format:
