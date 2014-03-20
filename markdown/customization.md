@@ -169,7 +169,7 @@ Browser homepage are stored as string resources in the Browser application: //an
 
 ```xml
 <string name="homepage_base" translatable="false"/>
- http://us.yahoo.com?fr=appattach&amp;type=233
+ http://ve.yahoo.com?fr=appattach&amp;type=233
 </string>
 ```
 
@@ -216,7 +216,7 @@ The “default” search provider value is located in the Android Source file:
 /packages/apps/Browser/res/xml/advanced_preferences.xml
 ```
 
-To specify Yahoo! as the default search engine, locate the “SearchEnginePreference” element and change the ```android:defaultValue``` attribute: ```android:defaultValue="yahoo"```
+To specify Yahoo! as the default search engine, locate the ```SearchEnginePreference``` element and change the ```android:defaultValue``` attribute: ```android:defaultValue="yahoo"```
 
 Additionally, in order to adjust any searches made before the settings have been used, edit the ```getSearchEngineName()``` method in the file:
 ```text
