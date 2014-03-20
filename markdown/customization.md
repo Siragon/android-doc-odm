@@ -337,11 +337,4 @@ The default email provider settings are stored as string resources in the Email 
 ```
 As with all Android application resources, the platform will load alternate resources based on the platform configuration values. See Resources and Internationalization in the Android SDK for details. To configure email providers for a specific mobile network operator, place the customized providers in a separate providers.xml file and place it under a Mobile Network Code (MNO) specific resource folder. For example, Email/res/xml-mccXXX-mncYYY/providers.xml where XXX and YYY represent the three-digit MCC and two to three digit MNC values.
 
-Platform Themes
-Themes and Styles
 
-System level styles are defined in //android/framework/base/core/res/res/values/styles.xml.
-
-Animations
-
-Android supports configurable animations for window and view transitions. System-level animations are defined in XML in global resource files located in //android/framework/base/core/res/res/anim/.
