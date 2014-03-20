@@ -1,3 +1,15 @@
+########################
+# Síragon Private Keys #
+########################
+
+siragon.pem
+siragon.pk8
+siragon.x509.pem
+
+########################
+# 					   #
+########################
 
 readme
 Thumbs.db
+
