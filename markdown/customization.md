@@ -243,6 +243,7 @@ The default email provider settings are stored as string resources in the Email 
     Pop.cantv.net
 	Port: 110
 	Mail.cantv.net
+    Port: 465 ssl/tls
 	Port: 25
     -->
     <provider id="aim" label="AIM" domain="aim.com">
