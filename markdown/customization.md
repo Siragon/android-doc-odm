@@ -326,9 +326,11 @@ Language files:
 ```
 ###Sounds
 
-Download ringtone
-Download notification_sound
-Download bootsound
+[Download ringtone](/android-doc-odm/res/Siragonringtone1.mp3)
+
+[Download notification_sound](/android-doc-odm/res/SiragonSMS1.mp3)
+
+[Download bootsound](/android-doc-odm/res/SiragonOn1.2.mp3)
 
 ```ini
 ro.config.ringtone=Siragonringtone1.mp3
