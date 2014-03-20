@@ -39,10 +39,17 @@ Click to download.
 
 ###Bootloader Splashscreen Customization
 The boot logo of the SoC when the kernel initialize.
+Example to use SoC logo:
+
+Mediatek:
 
 ![](/android-doc-odm/res/mediatek.jpg)
 
+Allwinner A31:
+
 ![](/android-doc-odm/res/a31.jpg)
+
+Note: Always use black background.
 
 ###Android Boot Screen Customization
 At startup, Android displays a splashscreen image while booting the device. Do the following to modify the default splash screen:
