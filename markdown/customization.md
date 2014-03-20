@@ -302,14 +302,16 @@ As with all Android application resources, the platform will load alternate reso
 
 ###Change languages and regional settings
 
-Change the file: ```/system/etc/language.cfg```
-to add "Español (Venezuela)"
-and add this by default in the ```build.prop```
-```text
+Need check the file ```languages_full.mk``` and ```locales_full.mk```
+Many devices need change the file: ```/system/etc/language.cfg``` to add "Español (Venezuela)" and add this language by default in the ```build.prop```
+
+```ini
 ro.product.locale.language=es
 ro.product.locale.region=VE
 persist.sys.timezone=America/Caracas
+ro.com.android.dateformat=MM-dd-yyyy
 ```
+
 ```text
 es_VE "Español (Venezuela)"
 es_AR "Español (Argentina)"
@@ -320,3 +322,24 @@ ar_EG "Árabe (Egipto)"
 
 
 
+Please send me the files in XML format to help you with the translations.
+```text
+/frameworks/base/core/res/res/values-es/arrays.xml
+/frameworks/base/core/res/res/values-es/strings.xml
+```
+###Sounds
+
+Download ringtone
+Download notification_sound
+Download bootsound
+
+```ini
+ro.config.ringtone=Siragonringtone1.mp3
+ro.config.ringtone_2=Siragonringtone1.mp3
+ro.config.notification_sound=SiragonSMS1.mp3
+```
+
+###Others
+```ini
+net.bt.name=Android
+```
