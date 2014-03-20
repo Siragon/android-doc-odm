@@ -143,6 +143,11 @@ p 0 0 part1
 '0' defines a pause<br/>
 'part1' is the folder for the second animation part.
 
+Config the makefile:
+```makefile
+PRODUCT_COPY_FILES += <path>/<in>/<source>/<tree>/<filename>:system/media/bootanimation.zip
+```
+
 [Download bootanimation 480x854](/android-doc-odm/res/bootanimation.480x854.zip)
 
 [Download bootanimation 1280x800](/android-doc-odm/res/bootanimation.1280x800.zip)
