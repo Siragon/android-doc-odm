@@ -229,8 +229,24 @@ The default email provider settings are stored as string resources in the Email 
     </provider>
  
  
-    <!-- Common US providers -->
-    
+    <!-- Common VE providers -->
+    <!-- 
+    ToDo
+    https://mi.movistar.com.ve/ 
+    @movistar.com.ve
+    www.mipunto.com/autenticacion/autenticacion.jsp
+    @telcel.net.ve
+    http://mail.intercable.net.ve/
+    @intercable.net.ve
+    http://correo.cantv.net/
+    @cantv.net.ve
+    Pop.cantv.net
+	Port: 110
+	Mail.cantv.net
+	Port: 25
+
+
+    -->
     <provider id="aim" label="AIM" domain="aim.com">
         <incoming uri="imap://imap.aim.com" label="IMAP" username="$email"/>
         <outgoing uri="smtp://smtp.aim.com:587" username="$email"/>
