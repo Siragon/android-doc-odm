@@ -58,8 +58,6 @@ Network Configuration
 
 Android stores network configurations as a resource that gets compiled into binary at form at build time. The XML representation of this resource is located at //android/frameworks/base/core/res/res/xml/apns.xml. This file does not include any configured APNs. You should not modify this file, but instead configure APNs by product at build time (see Build-time APN Configuration below).
 
-[Download the file apns-conf.xml](/android-doc-odm/res/apns-conf.xml)
-
 Each network configuration for Venezuela is stored in an XML element following this syntax:
 
 ```xml
@@ -123,6 +121,9 @@ To configure APNs at the product level, add a line to the product configuration 
 ```text
 PRODUCT_COPY_FILES := vendor/siragon/etc/apns-conf-us.xml:system/etc/apns-conf.xml
 ```
+
+[Download the file apns-conf.xml](/android-doc-odm/res/apns-conf.xml)
+
 ###APN configuration at run time
 At runtime, the Android reads APNs from the following file:
 ```text 
