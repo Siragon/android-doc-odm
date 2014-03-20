@@ -303,17 +303,17 @@ As with all Android application resources, the platform will load alternate reso
 ###Change languages and regional settings
 
 Change the file: ```/system/etc/language.cfg```
-To add "Español (Venezuela)"
-And add this by default in the ```build.prop```
+to add "Español (Venezuela)"
+and add this by default in the ```build.prop```
 ```text
 ro.product.locale.language=es
 ro.product.locale.region=VE
 persist.sys.timezone=America/Caracas
 ```
 ```text
-es_VE "Español (Venezuela)" (duplicate es_ES) *The most important
-es_AR "Español (Argentina)" (duplicate es_ES)
-pt_BR "Português (Brasil)" (duplicate pt_PT)
+es_VE "Español (Venezuela)"
+es_AR "Español (Argentina)"
+pt_BR "Português (Brasil)"
 en_US "Inglés (Estados Unidos)"
 ar_EG "Árabe (Egipto)"
 ```
