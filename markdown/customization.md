@@ -336,7 +336,28 @@ ro.config.ringtone_2=Siragonringtone1.mp3
 ro.config.notification_sound=SiragonSMS1.mp3
 ```
 
-###Others
+###Bluetooth
 ```ini
-net.bt.name=Android
+net.bt.name=Siragon
+```
+###Drivers USB
+
+Provide the signed drivers for these USB clases:
+```text
+USB Composite Device
+USB PID
+MSC+ADB
+MSC
+MTP+ADB
+MTP
+RNDIS+ADB
+RNDIS
+HID
+Fastboot
+```
+Other USB classes that vary depending on  bootloadr or SoC:
+```text
+FEL Mode
+APX Mode
+and others...
 ```
