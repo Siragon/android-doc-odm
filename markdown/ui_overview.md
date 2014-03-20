@@ -1,4 +1,17 @@
-###UI Overview
+###Platform Themes
+####Themes and Styles
+
+System level styles are defined in
+```text
+//android/framework/base/core/res/res/values/styles.xml.
+```
+
+####Animations
+
+Android supports configurable animations for window and view transitions. System-level animations are defined in XML in global resource files located in
+```text
+//android/framework/base/core/res/res/anim/.
+```
 
 ####Color
 Use these colors for our brand: \#FFBB33 and \#FF8800
