@@ -39,7 +39,9 @@ Click to download.
 
 ###Bootloader Splashscreen Customization
 The boot logo of the SoC when the kernel initialize.
+
 ![](/android-doc-odm/res/mediatek.jpg)
+
 ![](/android-doc-odm/res/a31.jpg)
 
 ###Android Boot Screen Customization
