@@ -37,7 +37,7 @@ Click to download.
 [![](/android-doc-odm/res/wallpapers/1920x1408/wallpaper5.thumbnail.jpg)](/android-doc-odm/res/wallpapers/1920x1408/wallpaper5.jpg)
 [![](/android-doc-odm/res/wallpapers/1920x1408/wallpaper6.thumbnail.jpg)](/android-doc-odm/res/wallpapers/1920x1408/wallpaper6.jpg)
 
-####Boot Screen Customization
+###Boot Screen Customization
 At startup, Android displays a splashscreen image while booting the device. Do the following if you wish to modify the default splash screen:
 
 Create a 320x480 image, splashscreen.jpg in this example.
@@ -53,7 +53,7 @@ Use fastboot to flash the image to the device:
 ```bash
 fastboot flash splash1 screen.565
 ```
-####Network Customization Platform
+###Network Customization Platform
 Network Configuration
 
 Android stores network configurations as a resource that gets compiled into binary at form at build time. The XML representation of this resource is located at //android/frameworks/base/core/res/res/xml/apns.xml. This file does not include any configured APNs. You should not modify this file, but instead configure APNs by product at build time (see Build-time APN Configuration below).
@@ -112,7 +112,7 @@ Each network configuration for Venezuela is stored in an XML element following t
 		type="mms" />
 ```
 
-####Build-time APN configuration
+###Build-time APN configuration
 
 To set the APN configuration for a particular product target, add an apns-conf.xml file to the product configuration (do not modify the default platform APNs). This allows multiple products, all with different APNs, to be built off the same code base.
 
@@ -121,7 +121,7 @@ To configure APNs at the product level, add a line to the product configuration 
 ```text
 PRODUCT_COPY_FILES := vendor/siragon/etc/apns-conf-us.xml:system/etc/apns-conf.xml
 ```
-####APN configuration at run time
+###APN configuration at run time
 At runtime, the Android reads APNs from the following file:
 ```text 
 system/etc/apns-conf.xml
@@ -134,7 +134,7 @@ Android supports the following run-time network configuration methods to choose 
 
 **WAP / SMS Push Configuration:** The network configurations are standard Android resources. You can upgrade a resource at runtime by installing a new system resource APK package. It will be possible to develop a network configuration service which listens to a specific binary SMS port for binary SMS messages containing the network configurations. NOTE: The implementation will likely be network operator dependent due to inconsistent SMS ports, binary SMS formats, etc.
 
-####Customizing pre-loaded applications
+###Customizing pre-loaded applications
 To customize the list of Android packages for a particular product (applications, input methods, providers, services, etc.), set ```PRODUCT_PACKAGES``` property in the product configuration, as illustrated below:
 
 ```makefile
@@ -164,7 +164,7 @@ include $(LOCAL_PATH)/client/Android.mk
 ```
 Note that the home screen is just an Android application that can be replaced entirely or customized by changing source code and application resources (Java source, layouts, etc.).
 
-####Customizing browser default homepage
+###Customizing browser default homepage
 Browser homepage are stored as string resources in the Browser application: //android/packages/apps/Browser/res/values/strings.xml. Homepage are defined as simple value string called "homepage_base". This might be changed to something like:
 
 ```xml
@@ -253,7 +253,7 @@ with the values from your appAttach contract:
 *Not all regions in all_search_engines.xml have an appAttach URL asset. Please refer to the list of URLs provided by appAttach to know which regions are eligible for this offer.
 
 
-####Email Provider Customization
+###Email Provider Customization
 The default email provider settings are stored as string resources in the Email application (//android/packages/apps/Email/res/xml/providers.xml) as illustrated below.
 ```xml
 <providers>
