@@ -229,17 +229,21 @@ Additionally, in order to adjust any searches made before the settings have been
 ```
 
 To specify Yahoo! as the default search engine, change the method to something like this:
+
 ```java
-public String getSearchEngineName() { return mPrefs.getString(PREF_SEARCH_ENGINE, "yahoo"); }
+public String getSearchEngineName() { 
+	return mPrefs.getString(PREF_SEARCH_ENGINE, "yahoo"); 
+ }
 	
 public String getSearchEngineName() {
-return mPrefs.getString(PREF_SEARCH_ENGINE, "yahoo");
+  return mPrefs.getString(PREF_SEARCH_ENGINE, "yahoo");
 }
 ```
 *Please note that “yahoo” is all lower case in both instances.
 ####Modify the Yahoo Search URL
 
 In order to get credit for any searches sent to Yahoo!, you will need to edit the URL strings in this file:
+
 ```text
 /packages/apps/Browser/res/values/all_search_engines.xml (or arrays.xml)
 ```
@@ -249,8 +253,9 @@ This file contains all the different URLs for Yahoo search in different countrie
 <item>http://search.yahoo.com/search?ei={inputEncoding}&fr=crmas&p={searchTerms}</item>
 ```
 with the values from your appAttach contract:
+
 ```xml
-<item>http://us.yhs4.search.yahoo.com/yhs/mobile/search?hspart=appattach&hsimp=yhsm-appattach&type=230&p={searchTerms}</item>
+	<item>http://ve.yhs4.search.yahoo.com/yhs/mobile/search?hspart=appattach&hsimp=yhsm-appattach&type=230&p={searchTerms}</item>
 ```
 *Please note the usage of &amp; for the parameter separator.
 
