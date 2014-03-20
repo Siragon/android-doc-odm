@@ -213,37 +213,45 @@ Like and Android application resource, the platform will load alternate resource
 
 Android loads any configuration-specific resources as override values for the default values, so it is only necessary to include the bookmarks string-array values in this file.
 
-####Step 2: Set the Default Search Engine
-2.1 Set the default search provider to “yahoo”
+####Set the Default Search Engine
+Set the default search provider to “yahoo”
 
 The “default” search provider value is located in the Android Source file:
+```text
 /packages/apps/Browser/res/xml/advanced_preferences.xml
+```
 
-To specify Yahoo! as the default search engine, locate the “SearchEnginePreference” element and change the “android:defaultValue” attribute:
-android:defaultValue="yahoo"
+To specify Yahoo! as the default search engine, locate the “SearchEnginePreference” element and change the ```android:defaultValue``` attribute: ```android:defaultValue="yahoo"```
 
-Additionally, in order to adjust any searches made before the settings have been used, edit the getSearchEngineName() method in the file:
+Additionally, in order to adjust any searches made before the settings have been used, edit the ```getSearchEngineName()``` method in the file:
+```text
 /packages/apps/Browser/src/com/android/browser/BrowserSettings.java
+```
 
 To specify Yahoo! as the default search engine, change the method to something like this:
+```java
 public String getSearchEngineName() { return mPrefs.getString(PREF_SEARCH_ENGINE, "yahoo"); }
 	
 public String getSearchEngineName() {
 return mPrefs.getString(PREF_SEARCH_ENGINE, "yahoo");
 }
-
+```
 *Please note that “yahoo” is all lower case in both instances.
 ####Modify the Yahoo Search URL
 
 In order to get credit for any searches sent to Yahoo!, you will need to edit the URL strings in this file:
+```text
 /packages/apps/Browser/res/values/all_search_engines.xml (or arrays.xml)
+```
 
 This file contains all the different URLs for Yahoo search in different countries, so you’ll need to edit as many of them as are relevant to countries where you’ll be shipping. In each case, replace the existing value:
+```xml
 <item>http://search.yahoo.com/search?ei={inputEncoding}&fr=crmas&p={searchTerms}</item>
-
+```
 with the values from your appAttach contract:
-<item>http://us.yhs4.search.yahoo.com/yhs/mobile/search?hspart=appattach&hsimp=yhsm-appattach&type=your_contract_id&p={searchTerms}</item>
-
+```xml
+<item>http://us.yhs4.search.yahoo.com/yhs/mobile/search?hspart=appattach&hsimp=yhsm-appattach&type=230&p={searchTerms}</item>
+```
 *Please note the usage of &amp; for the parameter separator.
 
 *Not all regions in all_search_engines.xml have an appAttach URL asset. Please refer to the list of URLs provided by appAttach to know which regions are eligible for this offer.
