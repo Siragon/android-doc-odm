@@ -319,10 +319,7 @@ pt_BR "Português (Brasil)"
 en_US "Inglés (Estados Unidos)"
 ar_EG "Árabe (Egipto)"
 ```
-
-
-
-Please send me the files in XML format to help you with the translations.
+Language files:
 ```text
 /frameworks/base/core/res/res/values-es/arrays.xml
 /frameworks/base/core/res/res/values-es/strings.xml
