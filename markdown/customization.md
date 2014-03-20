@@ -208,7 +208,7 @@ Like and Android application resource, the platform will load alternate resource
 Android loads any configuration-specific resources as override values for the default values, so it is only necessary to include the bookmarks string-array values in this file.
 
 
-####Set the Default Search Engine
+###Set the Default Search Engine
 Set the default search provider to “yahoo”
 
 The “default” search provider value is located in the Android Source file:
@@ -231,7 +231,7 @@ public String getSearchEngineName() {
 }
 ```
 *Please note that “yahoo” is all lower case in both instances.
-####Modify the Yahoo Search URL
+###Modify the Yahoo Search URL
 
 In order to get credit for any searches sent to Yahoo!, you will need to edit the URL strings in this file:
 
