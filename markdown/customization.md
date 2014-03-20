@@ -43,7 +43,7 @@ At startup, Android displays a splashscreen image while booting the device. Do t
 Create a 320x480 image, splashscreen.jpg in this example.
 Using ImageMagick, convert your .jpg file to .r format:
  ```bash
-	convert screen.jpg screen.r
+convert screen.jpg screen.r
 ```
 Use the rgb2565 application to convert the image to 565 format:
 ```bash
