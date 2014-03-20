@@ -234,10 +234,6 @@ To specify Yahoo! as the default search engine, change the method to something l
 public String getSearchEngineName() { 
 	return mPrefs.getString(PREF_SEARCH_ENGINE, "yahoo"); 
 }
-	
-public String getSearchEngineName() {
-	return mPrefs.getString(PREF_SEARCH_ENGINE, "yahoo");
-}
 ```
 *Please note that “yahoo” is all lower case in both instances.
 ####Modify the Yahoo Search URL
