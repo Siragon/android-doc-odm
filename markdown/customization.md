@@ -29,11 +29,10 @@ Click to download.
 [![](/android-doc-odm/res/wallpapers/1920x1280/wallpaper7.thumbnail.jpg)](/android-doc-odm/res/wallpapers/1920x1280/wallpaper7.jpg)
 
 **1920x1408**
-wallpaper1
-wallpaper2
-wallpaper3
-wallpaper4
-wallpaper5
-wallpaper6
-**960x854**
-wallpaper1
+
+[![](/android-doc-odm/res/wallpapers/1920x1408/wallpaper1.thumbnail.jpg)](/android-doc-odm/res/wallpapers/1920x1408/wallpaper1.jpg)
+[![](/android-doc-odm/res/wallpapers/1920x1408/wallpaper2.thumbnail.jpg)](/android-doc-odm/res/wallpapers/1920x1408/wallpaper2.jpg)
+[![](/android-doc-odm/res/wallpapers/1920x1408/wallpaper3.thumbnail.jpg)](/android-doc-odm/res/wallpapers/1920x1408/wallpaper3.jpg)
+[![](/android-doc-odm/res/wallpapers/1920x1408/wallpaper4.thumbnail.jpg)](/android-doc-odm/res/wallpapers/1920x1408/wallpaper4.jpg)
+[![](/android-doc-odm/res/wallpapers/1920x1408/wallpaper5.thumbnail.jpg)](/android-doc-odm/res/wallpapers/1920x1408/wallpaper5.jpg)
+[![](/android-doc-odm/res/wallpapers/1920x1408/wallpaper6.thumbnail.jpg)](/android-doc-odm/res/wallpapers/1920x1408/wallpaper6.jpg)
