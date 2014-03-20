@@ -71,7 +71,7 @@ Each network configuration for Venezuela is stored in an XML element following t
         mmsport="" 
         type="default" />
  <apn carrier="Digitel MMS" 
- 		mcc="734" 
+		mcc="734" 
         mnc="02" 
         apn="expresate.digitel.ve" 
         proxy="" 
@@ -98,17 +98,18 @@ Each network configuration for Venezuela is stored in an XML element following t
         mmsport="9001" 
         type="mms" />
   <apn carrier="Movilnet" 
-  		mcc="734" 
+		mcc="734" 
         mnc="06" 
-        apn="int.movilnet.com.ve" type="default" />
+		apn="int.movilnet.com.ve" 
+        type="default" />
   <apn carrier="Movilnet MMS" 
-  		mcc="734" 
-        mnc="06" 
-        apn="mm.movilnet.com.ve" 
-        mmsc="http://mms2.movilnet.com.ve/servlets/mms" 
-        mmsproxy="192.168.16.12" 
-        mmsport="8080" 
-        type="mms" />
+		mcc="734" 
+		mnc="06" 
+		apn="mm.movilnet.com.ve" 
+		mmsc="http://mms2.movilnet.com.ve/servlets/mms" 
+		mmsproxy="192.168.16.12" 
+		mmsport="8080" 
+		type="mms" />
 ```
 ####Build-time APN configuration
 
