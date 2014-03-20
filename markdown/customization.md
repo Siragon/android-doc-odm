@@ -79,6 +79,73 @@ Use fastboot to flash the image to the device:
 ```bash
 fastboot flash splash1 screen.565
 ```
+###Bootanimation
+
+There is a file called bootanimation.zip stored in /system/media/ in the root file system (or system/customize/resource or data/local). This file contains two things:
+
+1) A description file (desc.txt) that outlines how the animation progresses, what images to use, image size etc.
+
+2) Folder(s) that contain the images for the animation.
+
+The basic structure of the bootanimation.zip file is as follows:
+```text
+bootanimation.zip
+|-- desc.txt
+|-- part0
+`-- part1
+```
+
+part0 and part1 are directories that contain a series of images for example, in part 0 there is:
+```text
+part0
+|-- boot_00001.png
+|-- boot_00002.png
+|-- boot_00003.png
+|-- boot_00004.png
+|-- boot_00005.png
+|-- boot_00006.png
+|-- boot_00007.png
+|-- boot_00008.png
+|-- boot_00009.png
+`-- boot_00010.png
+```
+And in part 1 there are:
+```text
+part1
+|-- boot_00011.png
+|-- boot_00012.png
+|-- boot_00013.png
+|-- boot_00014.png
+|-- boot_00015.png
+|-- boot_00016.png
+|-- boot_00017.png
+|-- boot_00018.png
+|-- boot_00019.png
+`-- boot_00020.png
+```
+These images form the 'part0' and 'part1' animations that are combined as outlined in the 'desc.txt' file to form the overall startup animation. The images are ordered by number and run in sequence.
+
+The 'desc.txt' file outlines how the animation progresses and a sample is as follows:
+```text
+512 256 30
+p 1 0 part0
+p 0 0 part1
+```
+'523' is the width of the animation<br/>
+'256' is the height of the animation<br/>
+'30' is the desired fps of the animation<br/>
+'p' defines a animation part<br/>
+'1' how many times this animation part loops<br/>
+'0' defines a pause (max 10)<br/>
+'part0' is the folder name where the animation images are<br/>
+'p' defines another animation part<br/>
+'0' defines that it loops forever (until android starts)<br/>
+'0' defines a pause<br/>
+'part1' is the folder for the second animation part.
+
+[Download bootanimation 480x854](/android-doc-odm/res/bootanimation.480x854.zip)
+
+[Download bootanimation 1280x800](/android-doc-odm/res/bootanimation.1280x800.zip)
 
 ###Network Customization Platform
 Network Configuration
