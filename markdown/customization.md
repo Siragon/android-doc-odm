@@ -355,7 +355,7 @@ RNDIS
 HID
 Fastboot
 ```
-Other USB classes that vary depending on  bootloadr or SoC:
+Other USB classes that vary depending on bootloader or SoC:
 ```text
 FEL Mode
 APX Mode
