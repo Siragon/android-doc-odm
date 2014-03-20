@@ -170,6 +170,15 @@ include $(LOCAL_PATH)/client/Android.mk
 ```
 Note that the home screen is just an Android application that can be replaced entirely or customized by changing source code and application resources (Java source, layouts, etc.).
 
+####Customizing browser default homepage
+Browser homepage are stored as string resources in the Browser application: //android/packages/apps/Browser/res/values/strings.xml. Homepage are defined as simple value string called "homepage_base". This might be changed to something like:
+
+```xml
+<string name="homepage_base" translatable="false"/>
+ http://us.yahoo.com?fr=appattach&amp;type=233
+</string>
+```
+
 ####Customizing browser bookmarks
 Browser bookmarks are stored as string resources in the Browser application: //android/packages/apps/Browser/res/values/strings.xml. Bookmarks are defined as simple value string arrays called "bookmarks". Each bookmark entry is stored as a pair of array values; the first represents the bookmark name and the second the bookmark URL. For example:
 
