@@ -37,7 +37,12 @@ Click to download.
 [![](/android-doc-odm/res/wallpapers/1920x1408/wallpaper5.thumbnail.jpg)](/android-doc-odm/res/wallpapers/1920x1408/wallpaper5.jpg)
 [![](/android-doc-odm/res/wallpapers/1920x1408/wallpaper6.thumbnail.jpg)](/android-doc-odm/res/wallpapers/1920x1408/wallpaper6.jpg)
 
-###Boot Screen Customization
+###Bootloader Screen Customization
+The boot logo of the SoC when the kernel initialize.
+![](/android-doc-odm/res/mediatek.jpg)
+![](/android-doc-odm/res/a31.jpg)
+
+###Android Boot Screen Customization
 At startup, Android displays a splashscreen image while booting the device. Do the following to modify the default splash screen:
 
 Use splashscreen like this:
@@ -57,6 +62,7 @@ Use fastboot to flash the image to the device:
 ```bash
 fastboot flash splash1 screen.565
 ```
+
 ###Network Customization Platform
 Network Configuration
 
