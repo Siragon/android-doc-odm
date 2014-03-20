@@ -337,6 +337,7 @@ ro.config.notification_sound=SiragonSMS1.mp3
 ```
 
 ###Bluetooth
+Change the name of the bluetooth device in the ```build.prop```:
 ```ini
 net.bt.name=Siragon
 ```
