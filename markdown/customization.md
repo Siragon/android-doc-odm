@@ -37,7 +37,7 @@ Click to download.
 [![](/android-doc-odm/res/wallpapers/1920x1408/wallpaper5.thumbnail.jpg)](/android-doc-odm/res/wallpapers/1920x1408/wallpaper5.jpg)
 [![](/android-doc-odm/res/wallpapers/1920x1408/wallpaper6.thumbnail.jpg)](/android-doc-odm/res/wallpapers/1920x1408/wallpaper6.jpg)
 
-###Bootloader Screen Customization
+###Bootloader Splashscreen Customization
 The boot logo of the SoC when the kernel initialize.
 ![](/android-doc-odm/res/mediatek.jpg)
 ![](/android-doc-odm/res/a31.jpg)
