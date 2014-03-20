@@ -111,6 +111,7 @@ Each network configuration for Venezuela is stored in an XML element following t
 		mmsport="8080" 
 		type="mms" />
 ```
+
 ####Build-time APN configuration
 
 To set the APN configuration for a particular product target, add an apns-conf.xml file to the product configuration (do not modify the default platform APNs). This allows multiple products, all with different APNs, to be built off the same code base.
@@ -139,7 +140,7 @@ To customize the list of Android packages for a particular product (applications
 ```makefile
 PRODUCT_PACKAGES := \
  <company_name>Mail \
-    <company_name>IM \
+ <company_name>IM \
  <company_name>HomeScreen \
  <company_name>Maps \
  <company_name>SystemUpdater
@@ -150,21 +151,14 @@ Package names should correspond to the LOCAL_PACKAGE_NAME specified for each pac
 # Build the <company_name>Mail application
 LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
- 
 LOCAL_MODULE_TAGS := user development
- 
 LOCAL_SRC_FILES := $(call all-java-files-under,src,tests)
- 
 LOCAL_STATIC_JAVA_LIBRARIES := <company_name>login-client
- 
 # Specify the package name
 LOCAL_PACKAGE_NAME := <company_name>Mail
- 
 # Specify the certificate used to sign the application
 LOCAL_CERTIFICATE := vendor/siragon/certs/app
- 
 include $(BUILD_PACKAGE)
- 
 # Build the login client static library
 include $(LOCAL_PATH)/client/Android.mk
 ```
@@ -213,6 +207,7 @@ Like and Android application resource, the platform will load alternate resource
 
 Android loads any configuration-specific resources as override values for the default values, so it is only necessary to include the bookmarks string-array values in this file.
 
+
 ####Set the Default Search Engine
 Set the default search provider to “yahoo”
 
@@ -251,18 +246,17 @@ This file contains all the different URLs for Yahoo search in different countrie
 with the values from your appAttach contract:
 
 ```xml
-	<item>http://ve.yhs4.search.yahoo.com/yhs/mobile/search?hspart=appattach&hsimp=yhsm-appattach&type=230&p={searchTerms}</item>
+<item>http://ve.yhs4.search.yahoo.com/yhs/mobile/search?hspart=appattach&hsimp=yhsm-appattach&type=230&p={searchTerms}</item>
 ```
 *Please note the usage of &amp; for the parameter separator.
 
 *Not all regions in all_search_engines.xml have an appAttach URL asset. Please refer to the list of URLs provided by appAttach to know which regions are eligible for this offer.
 
+
 ####Email Provider Customization
 The default email provider settings are stored as string resources in the Email application (//android/packages/apps/Email/res/xml/providers.xml) as illustrated below.
 ```xml
 <providers>
-
- 
 <!-- Gmail variants -->
     <provider id="gmail" label="Gmail" domain="gmail.com">
         <incoming uri="imap+ssl+://imap.gmail.com" username="$email"/>
