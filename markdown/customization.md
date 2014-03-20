@@ -14,8 +14,9 @@ Check the size to select:
 ![](/android-doc-odm/res/wallpapers/1920x1080/wallpaper4.thumbnail.jpg)
 ![](/android-doc-odm/res/wallpapers/1920x1080/wallpaper5.thumbnail.jpg)
 ![](/android-doc-odm/res/wallpapers/1920x1080/wallpaper6.thumbnail.jpg)
-![](/android-doc-odm/res/wallpapers/1920x1080/wallpaper7.thumbnail.jpg)
 
+
+[![Foo](http://www.google.com.au/images/nav_logo7.png)](http://google.com.au/)
 **1920x1080**
 wallpaper1
 wallpaper2
