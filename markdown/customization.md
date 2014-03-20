@@ -176,32 +176,28 @@ Browser bookmarks are stored as string resources in the Browser application: //a
 ```xml
 <!-- Bookmarks -->
 <string-array name="bookmarks">
+    <item>Síragon</item>
+    <item>http://www.siragon.com/</item>
+    <item>Síragon Sync</item>
+    <item>http://sync.siragonplay.com/</item>
+    <item>Síragon Play</item>
+    <item>http://www.siragonplay.com/</item>
     <item>Google</item>
     <item>http://www.google.com/</item>
     <item>Yahoo!</item>
-    <item>http://www.yahoo.com/</item>
-    <item>MSN</item>
-    <item>http://www.msn.com/</item>
-    <item>MySpace</item>
-    <item>http://www.myspace.com/</item>
+    <item>http://es.yhs4.search.yahoo.com/yhs/mobile/web?hspart=appattach&hsimp=yhsm-appattach&type=233</item>
     <item>Facebook</item>
     <item>http://www.facebook.com/</item>
     <item>Wikipedia</item>
     <item>http://www.wikipedia.org/</item>
-    <item>eBay</item>
-    <item>http://www.ebay.com/</item>
-    <item>CNN</item>
-    <item>http://www.cnn.com/</item>
+    <item>CNN en Español</item>
+    <item>http://cnnespanol.cnn.com/</item>
     <item>New York Times</item>
     <item>http://www.nytimes.com/</item>
     <item>ESPN</item>
     <item>http://espn.go.com/</item>
     <item>Amazon</item>
     <item>http://www.amazon.com/</item>
-    <item>Weather Channel</item>
-    <item>http://www.weather.com/</item>
-    <item>BBC</item>
-    <item>http://www.bbc.co.uk/</item>
 </string-array>
 ```
 Like and Android application resource, the platform will load alternate resources based on the platform configuration values. See Resources and Internationalization in the Android SDK for details. To configure bookmarks for a specific mobile network operator, place your customized bookmarks in a separate strings.xml file and place it under a Mobile Network Code (MNO) specific resource folder. For example, Browser/res/values-mccXXX-mncYYY/strings.xml where XXX and YYY represent the three-digit MCC and two to three digit MNC values.
