@@ -300,4 +300,21 @@ The default email provider settings are stored as string resources in the Email 
 ```
 As with all Android application resources, the platform will load alternate resources based on the platform configuration values. See Resources and Internationalization in the Android SDK for details. To configure email providers for a specific mobile network operator, place the customized providers in a separate providers.xml file and place it under a Mobile Network Code (MNO) specific resource folder. For example, Email/res/xml-mccXXX-mncYYY/providers.xml where XXX and YYY represent the three-digit MCC and two to three digit MNC values.
 
+###Languages 
 
+Change the file: /system/etc/language.cfg
+To add "Español (Venezuela)"
+And add this by default in the build.prop
+ro.product.locale.language=es
+ro.product.locale.region=VE
+persist.sys.timezone=America/Caracas
+
+es_VE "Español (Venezuela)" (duplicate es_ES) *The most important
+
+es_AR "Español (Argentina)" (duplicate es_ES)
+
+pt_BR "Português (Brasil)" (duplicate pt_PT)
+
+en_US "Inglés (Estados Unidos)"
+
+ar_EG "Árabe (Egipto)"
