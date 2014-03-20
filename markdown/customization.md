@@ -244,8 +244,6 @@ The default email provider settings are stored as string resources in the Email 
 	Port: 110
 	Mail.cantv.net
 	Port: 25
-
-
     -->
     <provider id="aim" label="AIM" domain="aim.com">
         <incoming uri="imap://imap.aim.com" label="IMAP" username="$email"/>
