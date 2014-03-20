@@ -90,18 +90,22 @@ system/etc/apns-conf.xml
 Android supports the following run-time network configuration methods to choose the appropriate APN from the list of configured APNs:
 
 **Automatic Configuration:** At boot time, Android determines the correct network configuration based on the MCC and MNC from the SIM card and automatically configure all network settings.
+
 **Manual Configuration:** The platform will also support runtime (user) manual selection of network settings by name, for example, "Company Name US," and will support manual network configuration entry.
+
 **WAP / SMS Push Configuration:** The network configurations are standard Android resources. You can upgrade a resource at runtime by installing a new system resource APK package. It will be possible to develop a network configuration service which listens to a specific binary SMS port for binary SMS messages containing the network configurations. NOTE: The implementation will likely be network operator dependent due to inconsistent SMS ports, binary SMS formats, etc.
-Customizing pre-loaded applications
+
+####Customizing pre-loaded applications
 To customize the list of Android packages for a particular product (applications, input methods, providers, services, etc.), set ```PRODUCT_PACKAGES``` property in the product configuration, as illustrated below:
 
- 
+```makefile
 PRODUCT_PACKAGES := \
  <company_name>Mail \
     <company_name>IM \
  <company_name>HomeScreen \
  <company_name>Maps \
  <company_name>SystemUpdater
+ ```
 Package names should correspond to the LOCAL_PACKAGE_NAME specified for each package's build target. For example, the Android.mk build target for <company_name>Mail, referenced above, could look like this:
 
  
