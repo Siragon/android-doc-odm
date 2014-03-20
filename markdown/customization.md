@@ -145,7 +145,7 @@ p 0 0 part1
 
 Config the makefile:
 ```makefile
-PRODUCT_COPY_FILES += <path>/<in>/<source>/<tree>/<filename>:system/media/bootanimation.zip
+PRODUCT_COPY_FILES += <path>/<filename>:system/media/bootanimation.zip
 ```
 
 [Download bootanimation 480x854](/android-doc-odm/res/bootanimation.480x854.zip)
