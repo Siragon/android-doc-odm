@@ -35,6 +35,7 @@ Change the padlock image with the "Sí" chars.
 ####Battery loading animation
 
 [Download the vector file](/android-doc-odm/res/battery.eps).
+
 <img  src="/android-doc-odm/res/battery.png" style="width: 300px;"/>
 
 
