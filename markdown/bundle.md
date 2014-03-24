@@ -1,3 +1,6 @@
+###Bundled Software 
+[Software](http://en.wikipedia.org/wiki/Bundle_%28software_distribution%29) distributed with the device.
+
 ###Implementation Instructions
 
 1. The Bundle <br/>
