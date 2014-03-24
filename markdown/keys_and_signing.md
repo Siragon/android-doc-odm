@@ -12,7 +12,7 @@ These keys are used to sign applications separately for release images and are n
 
 ####Request the keys
 Síragon provide the private key and the passfrase by email.
-Please contact android@siragon.com.ve
+Please contact [android@siragon.com.ve](mailto:android@siragon.com.ve)
 
 ####Signing a build for release
 Signing a build for a release is a two-step process.
