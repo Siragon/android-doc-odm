@@ -98,46 +98,47 @@ ________________
    * Connect the device to the internet.
    * Verification steps for each app below:
 
-
 ####Device Manager<br/>
 Device Manager reports device information for trending and analysis. It will automatically report shortly after being turned on and connected to the internet for the first time.
 
-
    * Confirm device activation received using the test tracker. 
  
-You may see your test activity in real-time using our test tracker here: http://devmgr.net/testing
+_You may see your test activity in real-time using our test tracker here: http://devmgr.net/testing_
    * The page requires authentication: username: testing password: dmTesting
    * By default, this page will not show any events. Entering the full "mac_address" of a known device will show any activity from that device.
+
 ####Accuweather
    * Go through first-run and confirm proper operation and functionality.
    * Open Accuweather and then key in "adopstest" into the location entry (far-left panel). "Partner" line should read: "androidappattach_000370".
    * Confirm app events are tracked using the test tracker.
-
 
 #####Accuweather reports the following events:
    * Installed - Automatically when the app is installed on first boot.
    * Launched - Every time the app is opened.
    * Activated - When the first-run user agreement is accepted.
    * AdDisplayed - Each time a new advertisement is displayed within the Accuweather UI.
-
-
 _You may see your test activity in real-time using our test tracker here: http://devmgr.net/testing_
    * The page requires authentication: username: testing password: dmTesting
    * By default, this page will not show any events. Entering the full "mac_address" of a known device will show any activity from that device.
+
 ####iMediaShare
    * Go through first-run and confirm proper operation and functionality.
+
 ####Maxthon
    * Go through first-run and confirm proper operation and functionality.
    * Please Type mx://info into the URL bar.
    * Confirm that the resulting "About Maxthon Cloud Browser" dialog box “Partner Code” reads: 620024890100.
+
 ####Despegar
    * Go through first-run and confirm proper operation and functionality.
+
 ####Lookout Mobile Security & Antivirus
    * Go through first-run and confirm proper operation and functionality.
    * Sign up for a new Lookout account 
    * Make note of the email address used to sign up.
    * Test the app for functionality and user experience on your device(s).
    * Send an email to custserv@appattach.com and/or to your technical contact at appAttach containing the email address used to sign up for Lookout.
+   
 ####OfficeSuite
    * Go through first-run and confirm proper operation and functionality.
    * Open OfficeSuite and then tap on “buy". This will open a browser window.
@@ -152,15 +153,15 @@ _You may see your test activity in real-time using our test tracker here: http:/
 _You may see your test activity in real-time using our test tracker here: http://devmgr.net/testing_
    * The page requires authentication: username: testing password: dmTesting
    * By default, this page will not show any events. Entering the full "mac_address" of a known device will show any activity from that device.
-PlayKids
+
+####PlayKids
    * Go through first-run and confirm proper operation and functionality.
    * Confirm app events are tracked using the test tracker.
    
-####Playkids reports the following events:
+#####Playkids reports the following events:
    * Installed - Automatically when the app is opened for the first time.
    * Launched - Every time the app is opened.
    * Subscription - When a Playkids trial subscription converts to a paid subscription.
-
 
 _You may see your test activity in real-time using our test tracker here: http://devmgr.net/testing_
    * The page requires authentication: username: testing password: dmTesting
