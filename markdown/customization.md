@@ -481,13 +481,13 @@ PRODUCT_COPY_FILES += <path>/suscerte.pem:system/etc/security/cacerts/5ed36f99.0
 Certificate:
     Data:
         Version: 3 (0x2)
-        Serial Number: 11 (0xb)
-        Signature Algorithm: sha256WithRSAEncryption
+        Serial Number: 10 (0xa)
+        Signature Algorithm: sha384WithRSAEncryption
         Issuer: CN=Autoridad de Certificacion Raiz del Estado Venezolano, C=VE, L=Caracas, ST=Distrito Capital, O=Sistema Nacional de Certificacion Electronica, OU=Superintendencia de Servicios de Certificacion Electronica/emailAddress=acraiz@suscerte.gob.ve
         Validity
-            Not Before: Dec 28 16:51:00 2010 GMT
-            Not After : Dec 25 23:59:59 2020 GMT
-        Subject: emailAddress=contacto@procert.net.ve, L=Chacao, ST=Miranda, OU=Proveedor de Certificados PROCERT, O=Sistema Nacional de Certificacion Electronica, C=VE, CN=PSCProcert
+            Not Before: Dec 28 16:41:36 2010 GMT
+            Not After : Dec 23 23:59:59 2030 GMT
+        Subject: CN=Autoridad de Certificacion Raiz del Estado Venezolano, C=VE, L=Caracas, ST=Distrito Capital, O=Sistema Nacional de Certificacion Electronica, OU=Superintendencia de Servicios de Certificacion Electronica/emailAddress=acraiz@suscerte.gob.ve
         Subject Public Key Info:
             Public Key Algorithm: rsaEncryption
             RSA Public Key: (4096 bit)
@@ -496,29 +496,29 @@ Certificate:
                 Exponent: 65537 (0x10001)
         X509v3 extensions:
             X509v3 Basic Constraints: critical
-                CA:TRUE, pathlen:1
+                CA:TRUE, pathlen:2
             X509v3 Issuer Alternative Name:
                 DNS:suscerte.gob.ve, othername:<unsupported>
             X509v3 Subject Key Identifier:
-                41:0F:19:38:AA:99:7F:42:0B:A4:D7:27:98:54:A2:17:4C:2D:51:54
+                AD:BB:22:1D:C6:E0:D2:01:A8:FD:76:50:52:93:ED:98:C1:4D:AE:D3
             X509v3 Authority Key Identifier:
                 keyid:AD:BB:22:1D:C6:E0:D2:01:A8:FD:76:50:52:93:ED:98:C1:4D:AE:D3
                 DirName:/CN=Autoridad de Certificacion Raiz del Estado Venezolano/C=VE/L=Caracas/ST=Distrito Capital/O=Sistema Nacional de Certificacion Electronica/OU=Superintendencia de Servicios de Certificacion Electronica/emailAddress=acraiz@suscerte.gob.ve
                 serial:0A
-            X509v3 Key Usage: critical
+            X509v3 Key Usage:
                 Certificate Sign, CRL Sign
             X509v3 Subject Alternative Name:
-                DNS:procert.net.ve, othername:<unsupported>, othername:<unsupported>
+                DNS:suscerte.gob.ve, othername:<unsupported>
             X509v3 CRL Distribution Points:
-                URI:http://www.suscerte.gob.ve/lcr/CERTIFICADO-RAIZ-SHA384CRLDER.crl
+                URI:http://www.suscerte.gob.ve/lcr
                 URI:ldap://acraiz.suscerte.gob.ve
             Authority Information Access:
                 OCSP - URI:http://ocsp.suscerte.gob.ve
             X509v3 Certificate Policies:
-                Policy: 2.16.862.3.1.2
+                Policy: 2.16.862.1.2
                   CPS: http://www.suscerte.gob.ve/dpc
-    Signature Algorithm: sha256WithRSAEncryption
-        2b:... (see PEM file)
+    Signature Algorithm: sha384WithRSAEncryption
+        1c:... (see PEM file)
 ```
 ####Procert
 
