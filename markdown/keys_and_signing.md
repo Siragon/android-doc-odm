@@ -20,7 +20,7 @@ Signing a build for a release is a two-step process.
 1. Sign all the individual parts of the build.
 2. Put the parts back together into image files.
     
-#####Signing applications
+####Signing applications
 Use ```build/tools/releasetools/sign_target_files_apks``` to sign a ```target_files``` package. The ```target_files``` package isn't built by default, you need to make sure to specify the "dist" target when you call make. For example:
 
 make -j4 PRODUCT-<product_name>-user dist
@@ -35,7 +35,7 @@ If you have prebuilt and pre-signed apk's in your build that you don't want re-s
 
 ```sign_target_files_apks``` also has many other options that could be useful for signing release builds. Run it with ```-h``` as the only option to see the full help.
 
-#####Creating image files
+####Creating image files
 
 Once you have signed-target-files.zip, create the images so you can put it onto a device with the command below:
 ```text
