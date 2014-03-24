@@ -4,6 +4,7 @@ The ```framework-res.apk``` contain the ```default_wallpaper.jpg```
 ```text
     /system/framework/framework-res.apk
     /res/drawable-nodpi/default_wallpaper.jpg
+    /res/...-.../default_wallpaper.jpg
 ```
 Check the size to select.
 
