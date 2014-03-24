@@ -71,7 +71,7 @@ ________________
 
 2. Implementation:<br/>
 Bundle
-* Download the bundle: (Siragon_apps_2014-03-19.zip)
+* Download the bundle: ([appattach-bundle-app-master.zip](https://github.com/Siragon/appattach-bundle-app/archive/master.zip))
 * Extract the bundle to your hard drive.
 * Merge the bundle directory tree with that of the device image.
 * Confirm that each file is placed in the correct folder. (Refer to section 1-b)
