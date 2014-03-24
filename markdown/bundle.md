@@ -33,7 +33,7 @@ ________________
 1. The Bundle
 
 a. Bundle Download Link:  
-https://drive.google.com/file/d/0ByRtJBdr5V78TzRWUUxKU0JuTHM/edit?usp=sharing
+https://github.com/Siragon/appattach-bundle-app/archive/master.zip
 
 
 b. Bundle contents (files by folder):
