@@ -17,8 +17,8 @@ Please contact [android@siragon.com.ve](mailto:android@siragon.com.ve)
 ####Signing a build for release
 Signing a build for a release is a two-step process.
 
-    1. Sign all the individual parts of the build.
-    2. Put the parts back together into image files.
+1. Sign all the individual parts of the build.
+2. Put the parts back together into image files.
     
 #####Signing applications
 Use ```build/tools/releasetools/sign_target_files_apks``` to sign a ```target_files``` package. The ```target_files``` package isn't built by default, you need to make sure to specify the "dist" target when you call make. For example:
