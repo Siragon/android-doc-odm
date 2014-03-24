@@ -468,7 +468,7 @@ and others...
 ```
 ###Certificates
 
-```text
+```
 Certificate:
     Data:
         Version: 3 (0x2)
