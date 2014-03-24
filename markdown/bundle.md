@@ -1,34 +1,27 @@
-Siragon Implementation Instructions        03/19/2014
+###Implementation Instructions
 
-Siragon
-
-Implementation Instructions
-
-
-1. The Bundle
-a. Bundle Download Link:
-b. Bundle contents (files by folder):
-c. Bundle contents (by app):
-2. Implementation:
-Bundle
-Default Search and Homepage
-3. Verification:
-Device Manager
-Accuweather
-iMediaShare
-Maxthon
-Despegar
-Lookout Mobile Security & Antivirus
-OfficeSuite
-PlayKids
-FreeZone Free WiFi
-Opera Mini
-Yahoo! Default Search
-Yahoo! Default Home Page
-Kido’z
-SwiftKey Trial
-________________
-
+1. The Bundle <br/>
+    a. Bundle Download Link:<br/>
+    b. Bundle contents (files by folder):<br/>
+    c. Bundle contents (by app):
+2. Implementation:<br/>
+    Bundle<br/>
+    Default Search and Homepage
+3. Verification:<br/>
+Device Manager<br/>
+Accuweather<br/>
+iMediaShare<br/>
+Maxthon<br/>
+Despegar<br/>
+Lookout Mobile Security & Antivirus<br/>
+OfficeSuite<br/>
+PlayKids<br/>
+FreeZone Free WiFi<br/>
+Opera Mini<br/>
+Yahoo! Default Search<br/>
+Yahoo! Default Home Page<br/>
+Kido’z<br/>
+SwiftKey Trial<br/>
 
 1. The Bundle
 
@@ -73,7 +66,7 @@ c. Bundle contents (by app):
 ________________
 
 
-2. Implementation:
+2. Implementation:<br/>
 Bundle
 * Download the bundle: (Siragon_apps_2014-03-19.zip)
 * Extract the bundle to your hard drive.
@@ -88,7 +81,7 @@ Bundle
 Default Search and Homepage
 * Configure the stock browser to the correct default URLs for search and homepage:
    * Set homepage as one of the following:
-Desktop style: http://es.yahoo.com/?fr=appattach&type=233
+Desktop style: http://ve.yahoo.com/?fr=appattach&type=233
 Mobile style: http://es.yhs4.search.yahoo.com/yhs/mobile/web?hspart=appattach&hsimp=yhsm-appattach&type=233
    * Set Default Search as: http://es.yhs4.search.yahoo.com/yhs/mobile/search?hspart=appattach&hsimp=yhsm-appattach&type=230&p={searchTerms}
 
