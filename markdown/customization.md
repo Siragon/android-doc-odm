@@ -150,6 +150,8 @@ PRODUCT_COPY_FILES += <path>/<filename>:system/media/bootanimation.zip
 
 [Download bootanimation 480x854](/android-doc-odm/res/bootanimation.480x854.zip)
 
+[Download bootanimation 540x960](/android-doc-odm/res/bootanimation.540x960.zip)
+
 [Download bootanimation 1280x800](/android-doc-odm/res/bootanimation.1280x800.zip)
 
 ###Network Customization Platform
