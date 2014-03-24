@@ -470,7 +470,7 @@ and others...
 ####Suscerte
 Deploy the Root CA suscerte in the folder ```/system/etc/security/cacerts/```
 
-Download suscerte.pem](/android-doc-odm/res/suscerte.pem)
+[Download suscerte.pem](/android-doc-odm/res/suscerte.pem)
 
 Config the makefile example:
 ```makefile
@@ -524,7 +524,7 @@ Certificate:
 
 Deploy the Sub CA procert in the folder ```/system/etc/security/cacerts/```
 
-Download procert.pem](/android-doc-odm/res/procert.pem)
+[Download procert.pem](/android-doc-odm/res/procert.pem)
 
 Config the makefile example:
 ```makefile
