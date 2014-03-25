@@ -441,11 +441,15 @@ ro.config.notification_sound=SiragonSMS1.mp3
 ```
 
 ###Bluetooth
+
 Change the name of the bluetooth device in the ```build.prop```:
 ```ini
 net.bt.name=Siragon
 ```
+
 ###Drivers USB
+
+Use this [Icon file](/android-doc-odm/res/installer.ico) and the [Autorun.inf](/android-doc-odm/res/Autorun.inf) to the Virtual CD drive with the drivers.
 
 Provide the signed drivers for these USB clases:
 ```text
