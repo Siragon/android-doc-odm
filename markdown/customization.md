@@ -447,7 +447,7 @@ Change the name of the bluetooth device in the ```build.prop```:
 net.bt.name=Siragon
 ```
 
-###Drivers USB
+###USB Drivers
 
 Use this [Icon file](/android-doc-odm/res/installer.ico) and the [Autorun.inf](/android-doc-odm/res/Autorun.inf) to the Virtual CD drive with the drivers.
 
@@ -470,6 +470,19 @@ FEL Mode
 APX Mode
 and others...
 ```
+
+####WHQL:
+Following the links about Microsoft WHQL:
+
+Download  WHQL testing tool from below link,  choose HCK tool,  test  the guide's "help" files on the server.<br/>
+http://msdn.microsoft.com/en-us/windows/hardware/gg454513
+
+Link for WHQL Signature:<br/>
+http://msdn.microsoft.com/en-us/library/windows/hardware/ff553976%28v=vs.85%29.aspx
+
+Support Contacts for Microsoft WHQL testing:<br/>
+http://msdn.microsoft.com/library/windows/hardware/gg487491.aspx
+
 ###Certificates
 ####Suscerte
 Deploy the Root CA suscerte in the folder ```/system/etc/security/cacerts/```
