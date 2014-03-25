@@ -1,0 +1,4 @@
+[autorun]
+icon=INSTALLER.ICO
+label=Instalador de controladores USB
+open=Controlador_USB_V1.003.exe
