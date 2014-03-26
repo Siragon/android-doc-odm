@@ -293,7 +293,7 @@ Browser bookmarks are stored as string resources in the Browser application: //a
     <item>Google</item>
     <item>http://www.google.com/</item>
     <item>Yahoo!</item>
-    <item>http://es.yhs4.search.yahoo.com/yhs/mobile/web?hspart=appattach&hsimp=yhsm-appattach&type=233</item>
+    <item>http://es.yhs4.search.yahoo.com/yhs/mobile/web?hspart=appattach&amp;hsimp=yhsm-appattach&amp;type=233</item>
     <item>Facebook</item>
     <item>http://www.facebook.com/</item>
     <item>Wikipedia</item>
